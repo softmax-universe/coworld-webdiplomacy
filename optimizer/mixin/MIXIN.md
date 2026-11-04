@@ -10,7 +10,7 @@ extra capabilities are discoverable.
 | | |
 |---|---|
 | **Game** | webDiplomacy: classic seven-power Diplomacy on the real, unmodified webDiplomacy server. Seven seats per episode, simultaneous orders, scored by share of supply centers squared |
-| **Coworld** | `webdiplomacy`, built from https://github.com/Metta-AI/coworld-webdiplomacy (`coworld_manifest_template.json`). This lab was checked against commit `fd03252` (Coworld 0.7.16); check the hosted version with `coworld list` |
+| **Coworld** | `webdiplomacy`, built from https://github.com/softmax-universe/coworld-webdiplomacy (`coworld_manifest_template.json`). This lab was checked against commit `fd03252` (Coworld 0.7.16); check the hosted version with `coworld list` |
 | **League(s)** | "webDiplomacy" `league_1bccc63d-cd0a-47d7-92d7-e762797b5f1c` (`classic-press`, the main league) and "webDiplomacy Gunboat" `league_428e91e5-ee25-4f9c-be5e-a4fc4f993f17` (`classic-gunboat`, no press). Re-resolve with `coworld leagues --json` |
 | **Game source of truth** | The upstream webDiplomacy server at the coworld-webdiplomacy submodule commit, via that repo's `docs/upstream-bot-api.md` (cites upstream file and line) — never answer mechanics questions from memory |
 

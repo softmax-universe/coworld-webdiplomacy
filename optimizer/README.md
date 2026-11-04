@@ -1,7 +1,7 @@
 # webDiplomacy optimizer (prototype)
 
 Tooling to improve webDiplomacy policies with
-[optimizer-seed](https://github.com/Metta-AI/optimizer-seed). This directory is
+[optimizer-seed](https://github.com/softmax-universe/optimizer-seed). This directory is
 the **source**. Nobody runs it from here: `install.sh` copies it into a
 standalone optimizer repository owned by the user.
 
@@ -70,7 +70,7 @@ optimizer/install.sh ~/coding/webdip-optimizer --harness none
 The target must be empty or missing, and outside this repository.
 
 Most users don't run `install.sh`. They create a private copy of the public
-template [Metta-AI/webdip-optimizer](https://github.com/Metta-AI/webdip-optimizer),
+template [softmax-universe/webdip-optimizer](https://github.com/softmax-universe/webdip-optimizer),
 which is `install.sh` output. That works in any coding environment that starts
 from a GitHub clone, including cloud sessions.
 
@@ -80,7 +80,7 @@ provenance names a public commit, then regenerate and push:
 ```sh
 optimizer/install.sh /tmp/webdip-optimizer
 cd /tmp/webdip-optimizer
-git remote add origin https://github.com/Metta-AI/webdip-optimizer.git
+git remote add origin https://github.com/softmax-universe/webdip-optimizer.git
 git push --force origin main     # the template is generated output
 ```
 

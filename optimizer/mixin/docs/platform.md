@@ -282,7 +282,7 @@ As the platform reported it from 2026-10-10 to the early hours of 2026-10-12. Re
 - The game's own log (public) ends with a `seat_activity` line: per phase and
   seat, seconds until orders were first saved and first Ready (Coworld 0.7.12;
   see the game's
-  [docs/protocol.md](https://github.com/Metta-AI/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/protocol.md),
+  [docs/protocol.md](https://github.com/softmax-universe/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/protocol.md),
   "Game log").
 
 ## LLM sidecar model quirks

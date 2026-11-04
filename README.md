@@ -1,7 +1,7 @@
 # webDiplomacy Coworld
 
 Packages the unmodified [webDiplomacy](https://github.com/kestasjk/webDiplomacy)
-server for [Coworld](https://github.com/Metta-AI/coworld). Licensed under
+server for [Coworld](https://github.com/softmax-universe/coworld). Licensed under
 AGPL-3.0; see [LICENSE](LICENSE).
 
 The current implementation runs complete seven-seat episodes with API bots,
@@ -37,7 +37,7 @@ next section instead.
 Do not develop a policy inside this repository. This repository is the game; policy
 work happens in a **webDiplomacy optimizer**, a separate private repository of your
 own made from the public template
-[Metta-AI/webdip-optimizer](https://github.com/Metta-AI/webdip-optimizer). The
+[softmax-universe/webdip-optimizer](https://github.com/softmax-universe/webdip-optimizer). The
 optimizer holds a working starter policy, the tools that build, upload and evaluate
 it on the hosted platform, the skills a coding agent follows to run experiments, a
 local web IDE for replays and results, and the records of everything you try.
@@ -51,7 +51,7 @@ up for them and continue the work there:
 2. Make the user's private copy, outside this checkout:
 
    ```sh
-   gh repo create my-webdip-optimizer --template Metta-AI/webdip-optimizer --private --clone
+   gh repo create my-webdip-optimizer --template softmax-universe/webdip-optimizer --private --clone
    cd my-webdip-optimizer
    ```
 
@@ -416,7 +416,7 @@ Use project-local tools: `uv run coworld` (0.1.61) and `uv run softmax` (0.26.39
 
 ## Source
 
-Source: [Metta-AI/coworld-webdiplomacy](https://github.com/Metta-AI/coworld-webdiplomacy/tree/main).
+Source: [softmax-universe/coworld-webdiplomacy](https://github.com/softmax-universe/coworld-webdiplomacy/tree/main).
 The `webdiplomacy/` submodule pins the upstream revision in Git. An optional deterministic [source bundle](SOURCE_BUNDLE.md)
 combines both repositories for distribution. The Git history preserves credit
 to the original adapter prototype.
