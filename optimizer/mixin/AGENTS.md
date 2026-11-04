@@ -271,7 +271,7 @@ hosted Coworld version. When it lists new entries:
 
 1. **Read them:** `python3 games/webdiplomacy/tools/check_coworld.py --show`. Tell the
    user what changed before you change anything.
-2. **Get the source:** `git clone --depth 1 https://github.com/Metta-AI/coworld-webdiplomacy
+2. **Get the source:** `git clone --depth 1 https://github.com/softmax-universe/coworld-webdiplomacy
    <scratch dir>`. The lab's files are under `optimizer/mixin/` there, and `ide/` is
    `optimizer/ide/`.
 3. **Apply each entry's "In your optimizer" steps, oldest entry first.** For a file the
@@ -451,7 +451,7 @@ It says nothing about negotiation.
 The source of truth is the **upstream webDiplomacy server pinned by
 coworld-webdiplomacy** (see [MIXIN.md](MIXIN.md)), described with file and line
 citations in that repo's
-[docs/upstream-bot-api.md](https://github.com/Metta-AI/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/upstream-bot-api.md).
+[docs/upstream-bot-api.md](https://github.com/softmax-universe/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/upstream-bot-api.md).
 Verify mechanics claims there, never from memory. Cache verified facts here
 with where they were verified:
 

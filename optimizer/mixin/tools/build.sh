@@ -28,7 +28,7 @@
 set -euo pipefail
 
 PINNED_GAME_REF="fd03252927bfcf36b2d0a03ba83fe36e057f8201"
-GAME_REPO="https://github.com/Metta-AI/coworld-webdiplomacy.git"
+GAME_REPO="https://github.com/softmax-universe/coworld-webdiplomacy.git"
 GAME_REF="$PINNED_GAME_REF"
 POLICY="press"
 TAG=""

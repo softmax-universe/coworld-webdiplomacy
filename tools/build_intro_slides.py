@@ -380,7 +380,7 @@ def game_of_the_week(drawer):
 
     slides.append(text("How to get started", '<ol class="steps">'
         "<li><b>Make your own optimizer</b> from the template, outside this repository."
-        "<code>gh repo create my-webdip-optimizer --template Metta-AI/webdip-optimizer --private --clone</code></li>"
+        "<code>gh repo create my-webdip-optimizer --template softmax-universe/webdip-optimizer --private --clone</code></li>"
         "<li><b>Install the CLIs and sign in.</b>"
         "<code>uv tool install coworld &amp;&amp; uv tool install softmax-cli &amp;&amp; softmax login</code></li>"
         "<li><b>Point your coding agent at the optimizer</b> and have it open"

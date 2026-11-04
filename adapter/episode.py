@@ -15,7 +15,7 @@ from adapter.artifacts import write_artifact
 from adapter.config import EpisodeConfig
 from adapter.maps import render_map
 
-SOURCE_URL = "https://github.com/Metta-AI/coworld-webdiplomacy/tree/main"
+SOURCE_URL = "https://github.com/softmax-universe/coworld-webdiplomacy/tree/main"
 ORDER_PHASES = ("Diplomacy", "Retreats", "Builds")
 # Classic country names by upstream country ID (1-7). They are the per-seat `roles` in
 # results.json, which league role ratings key on: renaming one starts a role with no history.

@@ -1,7 +1,7 @@
 # Changelog
 
 For people and coding agents who play this game or run an optimizer made from
-`optimizer/` (the template [Metta-AI/webdip-optimizer](https://github.com/Metta-AI/webdip-optimizer)).
+`optimizer/` (the template [softmax-universe/webdip-optimizer](https://github.com/softmax-universe/webdip-optimizer)).
 It lists the changes they must act on: a new Coworld version, a change to what a
 bot is told or may do, and a change to the optimizer template's tools, skills or
 docs. Internal changes (tests, CI, refactors) are not listed.

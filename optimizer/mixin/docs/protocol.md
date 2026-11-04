@@ -7,11 +7,11 @@ the game are in [game.md](game.md); hosted specifics are in
 
 Long references at coworld commit `fd03252` (Coworld 0.7.16), which these docs were checked against and which `tools/build.sh` pins:
 
-- [Write your own policy](https://github.com/Metta-AI/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/write-a-policy.md): image, HTTP contract, LLM bots, external bots
-- [Player protocol](https://github.com/Metta-AI/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/protocol.md): hello, lifecycle, private artifacts
-- [Upstream bot API](https://github.com/Metta-AI/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/upstream-bot-api.md): every route and order field
-- [Bundled players](https://github.com/Metta-AI/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/players.md): legal-order generation and order verification
-- Example code: [`players/api.py`](https://github.com/Metta-AI/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/players/api.py) (sync client, `verify_orders`), [`players/examples/herald_bot.py`](https://github.com/Metta-AI/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/players/examples/herald_bot.py) (stdlib-only bot)
+- [Write your own policy](https://github.com/softmax-universe/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/write-a-policy.md): image, HTTP contract, LLM bots, external bots
+- [Player protocol](https://github.com/softmax-universe/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/protocol.md): hello, lifecycle, private artifacts
+- [Upstream bot API](https://github.com/softmax-universe/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/upstream-bot-api.md): every route and order field
+- [Bundled players](https://github.com/softmax-universe/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/players.md): legal-order generation and order verification
+- Example code: [`players/api.py`](https://github.com/softmax-universe/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/players/api.py) (sync client, `verify_orders`), [`players/examples/herald_bot.py`](https://github.com/softmax-universe/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/players/examples/herald_bot.py) (stdlib-only bot)
 
 ## The image
 
@@ -163,4 +163,4 @@ fails. The reference policy's `press` mode does this.
 A bot can also play from your own machine in a human lobby seat through
 `players.bridge` (not ranked, not a submitted policy). See "Run an external bot
 in a human seat" in the
-[write-a-policy guide](https://github.com/Metta-AI/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/write-a-policy.md#run-an-external-bot-in-a-human-seat).
+[write-a-policy guide](https://github.com/softmax-universe/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/write-a-policy.md#run-an-external-bot-in-a-human-seat).

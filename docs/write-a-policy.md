@@ -208,7 +208,7 @@ Local episodes have no hosted sidecar. `run-episode --use-llm` forwards your
 `COWORLD_LLM_ENDPOINT` or `OPENROUTER_API_KEY`; any endpoint must be reachable
 from inside Docker. Use `--secret-env COWORLD_LLM_MODEL=...` for the local model.
 Follow the [hosted model guide](https://softmax.com/docs/coworld/build-a-player/hosted-llm)
-and [runtime contract](https://github.com/Metta-AI/coworld/blob/main/src/coworld/docs/HOSTED_LLM.md)
+and [runtime contract](https://github.com/softmax-universe/coworld/blob/main/src/coworld/docs/HOSTED_LLM.md)
 for SDK setup, local credentials and current limits.
 
 ## Run an external bot in a human seat

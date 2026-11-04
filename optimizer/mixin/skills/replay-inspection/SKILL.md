@@ -43,7 +43,7 @@ This binding is a first version.
 - **Watch one:** `coworld replay-open <episode-request-id> --hosted` opens the
   hosted viewer (positions, adjudicated orders, public press, map per season).
 - Full format:
-  [docs/replay.md at fd03252](https://github.com/Metta-AI/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/replay.md)
+  [docs/replay.md at fd03252](https://github.com/softmax-universe/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/replay.md)
   and upstream's game data spec (`webdiplomacy/doc/gamedata/02-spec.md` in that
   repo).
 

@@ -29,7 +29,7 @@ The first message is:
     {"slot": 0, "country_id": 5, "country": "Austria", "name": "Alpha (David B)"},
     {"slot": 1, "country_id": 2, "country": "France", "name": null}
   ],
-  "source_url": "https://github.com/Metta-AI/coworld-webdiplomacy/tree/main"
+  "source_url": "https://github.com/softmax-universe/coworld-webdiplomacy/tree/main"
 }
 ```
 

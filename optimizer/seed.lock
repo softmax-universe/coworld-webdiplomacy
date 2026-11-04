@@ -4,5 +4,5 @@
 # hook fixes, and the instrument-check doctrine; and from the second (optimizer-seed#7):
 # fetch-artifacts --watch prints a batch's status only when it changes.
 # Main is used instead of tag v0.1.0 (5783022) because later commits fix onboarding and hooks.
-SEED_URL=https://github.com/Metta-AI/optimizer-seed
+SEED_URL=https://github.com/softmax-universe/optimizer-seed
 SEED_COMMIT=cfa0cb335809e67490921d07b89be6d2afcd5833

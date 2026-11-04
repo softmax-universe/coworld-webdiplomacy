@@ -7,16 +7,16 @@ hosted specifics are in [platform.md](platform.md).
 
 **Source of truth.** The Coworld runs the **unmodified** upstream webDiplomacy
 server, pinned as a submodule in
-[Metta-AI/coworld-webdiplomacy](https://github.com/Metta-AI/coworld-webdiplomacy).
+[softmax-universe/coworld-webdiplomacy](https://github.com/softmax-universe/coworld-webdiplomacy).
 Its docs are the long references; this file summarizes them. The links below
 point at commit `fd03252` (Coworld 0.7.16), which this lab was checked against.
 Check the hosted version with `coworld list` before relying on a detail that
 may have changed.
 
-- [Player protocol](https://github.com/Metta-AI/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/protocol.md): lifecycle, scoring, `results.json`
-- [Upstream bot API](https://github.com/Metta-AI/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/upstream-bot-api.md): routes, orders, votes, with citations into the upstream PHP
-- [Replay format](https://github.com/Metta-AI/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/replay.md)
-- [Variants and config](https://github.com/Metta-AI/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/coworld_manifest_template.json) (`variants`, `config_schema`)
+- [Player protocol](https://github.com/softmax-universe/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/protocol.md): lifecycle, scoring, `results.json`
+- [Upstream bot API](https://github.com/softmax-universe/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/upstream-bot-api.md): routes, orders, votes, with citations into the upstream PHP
+- [Replay format](https://github.com/softmax-universe/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/docs/replay.md)
+- [Variants and config](https://github.com/softmax-universe/coworld-webdiplomacy/blob/fd03252927bfcf36b2d0a03ba83fe36e057f8201/coworld_manifest_template.json) (`variants`, `config_schema`)
 
 You are free to write your own longer references in this lab (for example a
 `docs/map.md` of adjacencies you have verified). Cite where each fact came from.

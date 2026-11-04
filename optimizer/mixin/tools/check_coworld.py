@@ -36,7 +36,7 @@ from pathlib import Path
 
 LAB = Path(__file__).resolve().parent.parent
 LOCAL = LAB / "CHANGELOG.md"
-UPSTREAM_URL = "https://raw.githubusercontent.com/Metta-AI/coworld-webdiplomacy/main/CHANGELOG.md"
+UPSTREAM_URL = "https://raw.githubusercontent.com/softmax-universe/coworld-webdiplomacy/main/CHANGELOG.md"
 # An entry's heading: `## 2026-10-12 · Coworld 0.7.9 · Title`.
 HEADING = re.compile(r"^## (\d{4}-\d{2}-\d{2}) · Coworld (\S+) · (.+)$")
 
@@ -109,7 +109,7 @@ def report(local: str | None, upstream: str, hosted: str | None) -> list[str]:
     if hosted and logged and hosted != logged:
         lines.append(f"The hosted webDiplomacy Coworld is {hosted}, and the changelog's newest entry is for "
                      f"{logged}: the changelog may not cover this release yet. Read the recent commits of "
-                     "https://github.com/Metta-AI/coworld-webdiplomacy before you rely on a game fact.")
+                     "https://github.com/softmax-universe/coworld-webdiplomacy before you rely on a game fact.")
     return lines
 
 
